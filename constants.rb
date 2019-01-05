@@ -1,0 +1,3 @@
+NAME = "Zeus"
+
+puts NAME
