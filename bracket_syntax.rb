@@ -11,3 +11,9 @@ puts
 
 p value.size
 p value[4]
+
+puts
+
+p story[5, 4]
+p story[0, story.length]
+p story.slice(5, 4)
