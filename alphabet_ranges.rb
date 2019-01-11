@@ -12,3 +12,8 @@ puts
 
 puts letters3.size.class
 puts numbers.size
+
+puts letters.include?("b")
+puts letters.include?("A")
+
+p letters === "d"
