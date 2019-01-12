@@ -20,3 +20,7 @@ p numbers[-1]
 fruits = ["Mango", "Dragonfruit", "Banana", "Blackberry", "Strawberry", "Grapes", "Cherry", "Blueberry", "Gooseberry", "Pineapple", "Plum", "Pear", "Apple", "Lemon", "Orange", "Melon"]
 
 p fruits.length
+
+p fruits.[](-5)
+
+p fruits.fetch(83, "Apple")
