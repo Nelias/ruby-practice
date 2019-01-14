@@ -63,3 +63,19 @@ locations << "Store"
 p locations
 
 p locations.insert(1, "Shop", "Mall")
+
+puts
+
+arr = [1, 2 , 4, 532, 214, 142, 241, 241, 4423]
+
+arr.pop(3)
+
+p arr
+
+arr.shift
+
+p arr
+
+arr.unshift(25)
+
+p arr
