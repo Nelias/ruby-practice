@@ -13,3 +13,5 @@ num = 1
 p num.is_a?(Integer)
 p num.is_a?(Object)
 p num.is_a?(BasicObject)
+puts
+puts [].nil?
