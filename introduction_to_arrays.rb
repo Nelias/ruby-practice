@@ -26,5 +26,7 @@ p fruits.[](-5)
 p fruits.fetch(83, "Apple")
 
 p fruits[3, 100]
-
+puts
 p fruits[3..8]
+puts
+p fruits.values_at(0, 2, 4)
