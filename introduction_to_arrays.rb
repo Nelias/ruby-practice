@@ -35,3 +35,10 @@ p fruits.slice(3)
 p fruits.slice(100)
 p fruits.slice(-1)
 p fruits.slice(4..9)
+puts
+
+fruits[fruits.length] = "Raspberry"
+
+p fruits
+
+p fruits.count("Apple")
