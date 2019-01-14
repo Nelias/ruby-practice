@@ -42,3 +42,24 @@ fruits[fruits.length] = "Raspberry"
 p fruits
 
 p fruits.count("Apple")
+puts
+
+puts [2, 4, 5, 2, 3].empty?
+puts [2, 4, 5, 2, 3].nil?
+
+p fruits.last
+p fruits.first
+p fruits.last(1)
+p fruits.first(1)
+
+
+
+locations = ["House", "School", "Restaurant"]
+
+p locations.push("Airport")
+
+locations << "Store"
+
+p locations
+
+p locations.insert(1, "Shop", "Mall")
