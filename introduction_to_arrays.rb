@@ -26,3 +26,5 @@ p fruits.[](-5)
 p fruits.fetch(83, "Apple")
 
 p fruits[3, 100]
+
+p fruits[3..8]
