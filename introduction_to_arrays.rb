@@ -30,3 +30,8 @@ puts
 p fruits[3..8]
 puts
 p fruits.values_at(0, 2, 4)
+puts
+p fruits.slice(3)
+p fruits.slice(100)
+p fruits.slice(-1)
+p fruits.slice(4..9)
