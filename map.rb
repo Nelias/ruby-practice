@@ -1,0 +1,5 @@
+numbers = [1, 2, 3, 4, 5, 6, 7]
+
+squares = numbers.map { |e| e ** 2 }
+
+puts squares
