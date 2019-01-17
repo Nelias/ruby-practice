@@ -12,3 +12,17 @@ while i < metals.length
 
   i += 1
 end
+
+
+numbers = [1, 3, 4, 5, 3, "string", 3, 4, 55]
+
+numbers.each do |e|
+
+  if !e.is_a?(Integer)
+    puts "This is not a number!"
+    break
+  else
+    puts e ** 2
+  end
+
+end
