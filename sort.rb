@@ -4,3 +4,4 @@ words = ["Hello", "hello", "442121", "apple", "zebra", "crocodile", "welcome"]
 p words.sort
 p numbers.sort
 
+p words.sort.reverse
