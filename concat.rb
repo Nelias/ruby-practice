@@ -8,3 +8,8 @@ puts
 
 p things.include?("clock")
 p things.include?(100)
+
+puts
+
+p things.index("cup")
+p things.index("brush")
