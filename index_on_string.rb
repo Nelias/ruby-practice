@@ -4,3 +4,9 @@ p sentence.index("g")
 p sentence.index("z")
 
 p sentence.rindex("a")
+
+typo = "hering"
+
+typo.insert(2, "r")
+
+p typo
