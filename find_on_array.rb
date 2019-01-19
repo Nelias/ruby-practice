@@ -5,3 +5,9 @@ result = lottery.find do |e|
 end
 
 p result
+
+result2 = lottery.detect do |e|
+  e.odd?
+end
+
+p result2
