@@ -6,3 +6,5 @@ nba_roster = {
   "Cleveland Cavaliers" => ["Kevin Love", "LeBron James"],
   "Golden State Warriors" => ["Stephen Curry"]
 }
+
+p nfl_roster["Tony Romo"]
