@@ -9,3 +9,10 @@ person = {
 }
 
 p person[:name]
+
+person2 = {
+  name: "John",
+  age: 200
+}
+
+p person2[:age]
