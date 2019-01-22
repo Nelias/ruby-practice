@@ -45,3 +45,10 @@ p shopping_list_two.empty?
 shopping_list.each do |key, value|
   p "You need to buy #{value} #{key}"
 end
+
+puts
+
+shopping_list.each_key do |elem|
+  puts elem
+  p elem
+end
