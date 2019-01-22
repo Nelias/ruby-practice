@@ -52,3 +52,5 @@ shopping_list.each_key do |elem|
   puts elem
   p elem
 end
+
+p shopping_list.values
