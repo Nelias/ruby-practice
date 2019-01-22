@@ -32,3 +32,16 @@ p :name.to_s
 p "big king".to_sym
 
 p "big_king".to_sym
+
+puts
+
+
+shopping_list = {banans: 5, oranges: 10, apples: 20}
+shopping_list_two = {}
+
+p shopping_list.length
+p shopping_list_two.empty?
+
+shopping_list.each do |key, value|
+  p "You need to buy #{value} #{key}"
+end
