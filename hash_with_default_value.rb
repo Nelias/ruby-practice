@@ -19,3 +19,7 @@ p fruit_prices.key?(:banana)
 p fruit_prices.key?(:golf)
 p fruit_prices.value?(5)
 p fruit_prices.value?(2.3)
+
+p fruit_prices.delete(:banana)
+
+p fruit_prices
