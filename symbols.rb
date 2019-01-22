@@ -17,6 +17,12 @@ person2 = {
 
 p person2[:age]
 
+p person2.fetch(:salad, "Not found")
+
+person2.store(:age, 999)
+
+p person2
+
 puts
 
 
@@ -24,3 +30,5 @@ puts
 p "age".to_sym
 p :name.to_s
 p "big king".to_sym
+
+p "big_king".to_sym
