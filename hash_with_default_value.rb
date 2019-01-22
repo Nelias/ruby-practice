@@ -8,3 +8,7 @@ fruit_prices_two[:pear] = 11
 p fruit_prices_two[:steak]
 p fruit_prices_two[:banana]
 p fruit_prices_two
+
+p fruit_prices.sort
+p fruit_prices.sort_by { |elem, type| type }
+p fruit_prices.sort_by { |elem, type| type }.reverse
