@@ -12,3 +12,10 @@ p fruit_prices_two
 p fruit_prices.sort
 p fruit_prices.sort_by { |elem, type| type }
 p fruit_prices.sort_by { |elem, type| type }.reverse
+
+puts
+
+p fruit_prices.key?(:banana)
+p fruit_prices.key?(:golf)
+p fruit_prices.value?(5)
+p fruit_prices.value?(2.3)
