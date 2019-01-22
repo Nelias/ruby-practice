@@ -16,3 +16,11 @@ person2 = {
 }
 
 p person2[:age]
+
+puts
+
+
+
+p "age".to_sym
+p :name.to_s
+p "big king".to_sym
