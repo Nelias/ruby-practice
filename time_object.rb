@@ -37,3 +37,8 @@ puts
 
 puts start_of_the_year < birthday
 puts birthday.between?(start_of_the_year, Time.now)
+
+someday = Time.new(2011, 11, 11)
+puts someday.to_s.length
+puts someday.mday
+puts someday.ctime
