@@ -34,3 +34,6 @@ p start_of_the_year + (60*60)
 p start_of_the_year + (60*60*24)
 
 puts
+
+puts start_of_the_year < birthday
+puts birthday.between?(start_of_the_year, Time.now)
