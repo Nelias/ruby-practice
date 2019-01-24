@@ -17,3 +17,20 @@ puts
 
 p today.yday
 p today.wday
+
+puts
+
+birthday = Time.new(1984, 2, 4)
+
+p birthday.monday?
+p birthday.dst?
+
+start_of_the_year = Time.new(2019, 1, 1)
+
+p start_of_the_year
+p start_of_the_year + 60
+p start_of_the_year - 180
+p start_of_the_year + (60*60)
+p start_of_the_year + (60*60*24)
+
+puts
