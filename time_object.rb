@@ -42,3 +42,8 @@ someday = Time.new(2011, 11, 11)
 puts someday.to_s.length
 puts someday.mday
 puts someday.ctime
+
+puts
+
+p Time.now.strftime("%B %d, %Y")
+p Time.now.strftime("%d-%w-%y")
