@@ -1,3 +1,5 @@
+require "time"
+
 puts Time.new
 
 puts Time.now
@@ -47,3 +49,8 @@ puts
 
 p Time.now.strftime("%B %d, %Y")
 p Time.now.strftime("%d-%w-%y")
+
+puts
+
+puts Time.parse("2016-01-01")
+puts Time.parse("2016-01-01").class
