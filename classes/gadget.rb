@@ -6,7 +6,15 @@ class Gadget
   end
 
   def info
-    "Gadget #{@production_number} has the username #{@username}"
+    "Gadget #{@production_number} has the username #{@username} and is a #{self.class}"
+  end
+
+  def username
+    @username
+  end
+
+  def password=(new_password)
+    @password = new_password
   end
 end
 
@@ -20,3 +28,7 @@ p tablet.instance_variables
 puts
 
 p phone.info
+
+p phone.username
+
+p phone.password=("21212104021421")
