@@ -7,3 +7,4 @@ puts phrase =~ /r/
 p phrase.scan(/o/)
 p phrase.scan(/[re]/)
 puts phrase.scan(/./)
+puts phrase.scan(/o.e/)
