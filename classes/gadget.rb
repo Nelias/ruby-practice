@@ -1,12 +1,13 @@
 class Gadget
 
   attr_accessor :username, :password
-  attr_reader :production_number
+  attr_reader :production_number, :apps
 
   def initialize
     @username = "User #{rand(1..100)}"
     @password = "topsecret"
     @production_number = generate_production_number
+    @apps = []
   end
 
   def info
@@ -17,7 +18,15 @@ class Gadget
     @password = new_password if validate_password(new_password)
   end
 
+  def reset(username, password)
+
+  end
+
+
+
   private
+
+  attr_writer :apps
 
   def generate_production_number
     start_digits = rand(10000..99999)
