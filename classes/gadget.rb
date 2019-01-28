@@ -1,3 +1,5 @@
+require_relative "../modules/app_store"
+
 class Gadget
 
   attr_accessor :username, :password
@@ -20,6 +22,11 @@ class Gadget
 
   def reset(username, password)
 
+  end
+
+  def install_app(name)
+    app = AppStore.find_app(name)
+    @apps << app unless @apps.include?(app)
   end
 
 
