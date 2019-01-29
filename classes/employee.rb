@@ -16,9 +16,15 @@ end
 
 
 class Manager < Employee
+  def tell
+    "Who's the boss? I am the boss!"
+  end
 end
 
 class Worker < Employee
+  def clock_in(time)
+    "Starting my shift at #{time}"
+  end
 end
 
 bob = Manager.new("Bob", 48)
@@ -35,3 +41,5 @@ p dan.introduce
 p bob.is_a?(Worker)
 p bob.is_a?(Manager)
 p bob.is_a?(Employee)
+
+p bob.tell
