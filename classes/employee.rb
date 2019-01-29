@@ -26,3 +26,8 @@ dan = Worker.new("Daniel", 36)
 
 p bob.class
 p dan.class
+
+p Manager.ancestors
+
+p bob.introduce
+p dan.introduce
