@@ -43,3 +43,5 @@ p bob.is_a?(Manager)
 p bob.is_a?(Employee)
 
 p bob.tell
+
+p Worker.ancestors
