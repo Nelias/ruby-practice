@@ -31,3 +31,7 @@ p Manager.ancestors
 
 p bob.introduce
 p dan.introduce
+
+p bob.is_a?(Worker)
+p bob.is_a?(Manager)
+p bob.is_a?(Employee)
