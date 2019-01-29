@@ -16,18 +16,27 @@ end
 
 
 class Manager < Employee
+
+  def initialize(name, age, rank)
+    super(name, age)
+    @rank = rank
+  end
+
   def tell
     "Who's the boss? I am the boss!"
   end
+
 end
 
 class Worker < Employee
+
   def clock_in(time)
     "Starting my shift at #{time}"
   end
+
 end
 
-bob = Manager.new("Bob", 48)
+bob = Manager.new("Bob", 48, "Manager")
 dan = Worker.new("Daniel", 36)
 
 p bob.class
@@ -45,3 +54,10 @@ p bob.is_a?(Employee)
 p bob.tell
 
 p Worker.ancestors
+
+puts
+
+sally = Manager.new("Sally", 42, "Senior Vice President")
+
+p sally.name
+p sally.age
