@@ -16,4 +16,13 @@ end
 
 
 class Manager < Employee
-  
+end
+
+class Worker < Employee
+end
+
+bob = Manager.new("Bob", 48)
+dan = Worker.new("Daniel", 36)
+
+p bob.class
+p dan.class
